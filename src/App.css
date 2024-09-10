@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: inherit;
+}
+/* header part  */
+
+.header-top-strip {
+  background-color: #283848;
+  border-bottom: 1px solid #1a4f8d;
+}
+.header-up {
+  background-color: #202b38;
+}
+.header-up .header_container {
+  position: relative;
+  top: 7px;
+}
+.header-up .input-group-text {
+  background-color: #febd69;
+  color: black;
+}
+.header-up-links {
+  margin-right: 20px;
+}
+.header-up .header-up-links img {
+  height: 35px;
+  width: 35px;
+}
+.header-up .header-up-links p {
+  color: white;
+  font-size: smaller;
+}
+.header-down {
+  background-color: #1f252b;
+}
+.header-down .menu-links a,
+.header-down .dropdown button {
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3;
+  text-transform: uppercase;
+  border: #1f252b;
+}
+.header-down .dropdown-menu {
+  background-color: #1f252b;
+  width: 100%;
+  z-index: -1;
+}
+.header-down .dropdown button:focus {
+  box-shadow: none;
+}
+.dropdown .dropdown-item {
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+/* Header Part ends here  */
+
+/* Footer  */
+footer {
+  background-color: #011930;
+}
+footer:not(:first-child) {
+  border: 1px solid rgb(179, 176, 176, 0.3);
+}
+.footer-top {
+  background-color: hwb(209 3% 63%);
+}
+.footer-top:hover {
+  background-color: #082743;
+}
+.footer-img {
+  margin-left: 60px;
+}
+.input-group {
+  position: relative;
+  right: 30px;
+  width: 45vw;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Footer ends here  */

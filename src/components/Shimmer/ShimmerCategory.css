@@ -1,0 +1,10 @@
+.shimmerCategory {
+  width: 25%;
+  padding: 10px 10px;
+  height: 110px;
+  background-color: #e0e0e0;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  margin-left: auto;
+  border: 1px solid #b0b0b0 !important;
+}

@@ -1,0 +1,14 @@
+.login-wrapper {
+  background-color: rgb(241, 240, 240);
+}
+.login-card {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 30px 10px;
+  width: 500px;
+  margin: auto;
+}
+.login-card .form-control {
+  background-color: #ececec;
+  border-color: transparent;
+}

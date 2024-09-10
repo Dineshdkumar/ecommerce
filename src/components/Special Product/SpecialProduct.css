@@ -1,0 +1,17 @@
+.special-product-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+}
+.special-product-content h5 {
+  font-size: 16px;
+  color: rgb(255, 98, 0);
+  font-weight: 700;
+  text-align: center;
+}
+.special-product-content h6 {
+  font-size: 16px;
+  letter-spacing: -0.02px;
+}

@@ -1,0 +1,35 @@
+.wishlist-wrapper {
+  background-color: rgb(241, 240, 240);
+}
+.wishlist-card img {
+  background-color: white;
+  border-radius: 10px;
+
+  height: 290px;
+  width: 290px;
+}
+.wishlist-card .cross {
+  top: 17px;
+  height: 20px;
+  width: 20px;
+  right: 34px;
+  cursor: pointer;
+}
+.wishlist-details {
+  margin-left: 10px;
+}
+.wishlist-details .title {
+  font-size: 17px;
+  line-height: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  font-weight: 600;
+}
+.wishlist-details .price {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgb(94, 94, 94);
+}
